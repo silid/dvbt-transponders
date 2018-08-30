@@ -12,6 +12,7 @@ I don't like the file numbering format because:
 It turns out that Plex works when I give the files readable names, so I have named them following the same format as the Linux TV scanfiles.
 Plex doesn't put them in alphabetical order - maybe if I ask them nicely?
 
-For Plex on Linux copy them to `/usr/lib/plexmediaserver/Resources/Tuner/Shared/scanners/dvbt`.
+For Plex on Linux copy them to `/usr/lib/plexmediaserver/Resources/Tuner/Shared/scanners/dvbt/transponders/`.
+You may want to rename the old transponder folder and put these in an empty folder to avoid confusion.
 
 There'll be a similar folder on other platforms.
